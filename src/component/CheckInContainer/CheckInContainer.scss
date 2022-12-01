@@ -1,0 +1,122 @@
+    .CheckInContainer {
+        width: 100%;
+        padding: 20px;
+        .InfoRoomBooking {
+            .top-form {
+                display: flex;
+                width: 60%;
+                align-items: center;
+                .roomNo {
+                    display: flex;
+                    align-items: center;
+                    width: 80%;
+                }
+                .title {
+                    width: 20%;
+                }
+            }
+            .buttonCheckIn {
+                width: 100%;
+                padding-bottom: 5px;
+                display: flex;
+                justify-content: flex-end;
+                position: relative;
+                top: 50px;
+                .buttonCheckInItem {
+                    color: #000000;
+                    background-color: rgba(196, 196, 196, 0.5);
+                    font-size: 16px;
+                    font-weight: 400;
+                    border: 1px solid #000000;
+                    padding: 5px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    width: 20%;
+                    &:hover {
+                        color: #000000;
+                        background-color: #fff;
+                        font-size: 16px;
+                        font-weight: 400;
+                        border: 1px solid #000000;
+                        padding: 5px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        width: 20%;
+                    }
+                }
+            }
+            .InfoRoom {
+                // margin-bottom: 20px;
+                .InfoRoomItem {
+                    padding-top: 5px;
+                }
+                .label {
+                    font-weight: 300;
+                    color: #000000;
+                }
+                .title {
+                    width: 100%;
+                }
+                // span {
+                //     font-style: 700;
+                //     font-size: 20px;
+                // }
+                // button {
+                //     color: #000000;
+                //     background-color: rgba(196, 196, 196, 0.5);
+                //     font-size: 16px;
+                //     font-weight: 400;
+                //     border: 1px solid #000000;
+                //     padding: 5px;
+                //     border-radius: 5px;
+                //     cursor: pointer;
+                //     width: 20%;
+                //     &:hover {
+                //         color: #000000;
+                //         background-color: #fff;
+                //         font-size: 16px;
+                //         font-weight: 400;
+                //         border: 1px solid #000000;
+                //         padding: 5px;
+                //         border-radius: 5px;
+                //         cursor: pointer;
+                //         width: 20%;
+                //     }
+                // }
+            }
+            .datagrid {
+                height: 260px;
+            }
+            .buttonAddCustomer {
+                // margin-top: 10px;
+                width: 100%;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .buttonAddCustomerItem {
+                    margin-top: 5px;
+                    color: #000000;
+                    background-color: rgba(196, 196, 196, 0.5);
+                    font-size: 16px;
+                    font-weight: 400;
+                    border: 1px solid #000000;
+                    padding: 5px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    width: 20%;
+                    &:hover {
+                        color: #000000;
+                        background-color: #fff;
+                        font-size: 16px;
+                        font-weight: 400;
+                        border: 1px solid #000000;
+                        padding: 5px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        width: 20%;
+                    }
+                }
+            }
+        }
+    }

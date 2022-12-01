@@ -1,0 +1,170 @@
+.datatableModalRequestService {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    .datagrid {
+        height: 80%;
+        .MuiDataGrid-footerContainer {
+            display: none;
+        }
+        .MuiDataGrid-columnHeader {
+            // display: none;
+        }
+        .cancelButton {}
+    }
+    .footer {
+        margin-top: 15px;
+        text-align: right;
+        .buttonConfirm {
+            margin: 5px;
+            padding: 10px;
+            width: 120px;
+            border: none;
+            color: #000000;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 0.5px solid #000000;
+            .icon {
+                color: green;
+            }
+            &:hover {
+                margin: 5px;
+                padding: 10px;
+                width: 120px;
+                border: none;
+                color: #fff;
+                background-color: green;
+                border-radius: 5px;
+                border: 0.5px solid green;
+                .icon {
+                    color: #fff;
+                }
+            }
+        }
+        .buttonDone {
+            margin: 5px;
+            padding: 10px;
+            width: 150px;
+            border: none;
+            color: #000000;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 0.5px solid #000000;
+            .icon {
+                color: green;
+            }
+            &:hover {
+                margin: 5px;
+                padding: 10px;
+                width: 150px;
+                border: none;
+                color: #fff;
+                background-color: green;
+                border-radius: 5px;
+                border: 0.5px solid green;
+                .icon {
+                    color: #fff;
+                }
+            }
+        }
+        .buttonClose {
+            margin: 5px;
+            padding: 10px;
+            width: 150px;
+            border: none;
+            color: #000000;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 0.5px solid #000000;
+            .icon {
+                color: red;
+            }
+            &:hover {
+                margin: 5px;
+                padding: 10px;
+                width: 150px;
+                border: none;
+                color: #fff;
+                background-color: red;
+                border-radius: 5px;
+                border: 0.5px solid red;
+                .icon {
+                    color: #fff;
+                }
+            }
+        }
+        .buttonCancel {
+            margin: 5px;
+            padding: 10px;
+            width: 120px;
+            border: none;
+            color: #000000;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 0.5px solid #000000;
+            .icon {
+                color: red;
+            }
+            &:hover {
+                margin: 5px;
+                padding: 10px;
+                width: 120px;
+                border: none;
+                color: #fff;
+                background-color: red;
+                border-radius: 5px;
+                border: 0.5px solid red;
+                .icon {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .cellAction {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .updateButton {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: rgb(175, 175, 5);
+            border: 1px solid rgba(220, 207, 20, 0.6);
+            cursor: pointer;
+        }
+        .viewButton {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            border: 1px solid rgba(0, 0, 139, 0.596);
+            cursor: pointer;
+        }
+        .cancelButton {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: crimson;
+            border: 1px solid rgba(220, 20, 60, 0.6);
+            cursor: pointer;
+        }
+    }
+    .cellWithStatus {
+        padding: 5px;
+        border-radius: 5px;
+        &.DONE {
+            background-color: rgba(0, 128, 0, 0.05);
+            color: green;
+        }
+        &PROCESSING {
+            background-color: rgba(0, 128, 0, 0.05);
+            color: yellow;
+        }
+        &.BOOKED {
+            background-color: rgba(255, 0, 0, 0.05);
+            color: red;
+        }
+    }
+}

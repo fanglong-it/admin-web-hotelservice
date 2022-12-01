@@ -1,0 +1,90 @@
+.RoomItem {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    p {
+        font-size: 20px;
+        color: #fff;
+    }
+    .RoomNo p {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .RoomDetailEmpty {
+        margin: 30px;
+        padding-top: 20px;
+        text-align: center;
+        background-color: #4CAF50;
+        width: 320px;
+        height: 270px;
+        border-radius: 30px;
+        .RoomTitile {
+            height: 100px;
+        }
+        .dropDownTouch {
+            height: auto;
+            margin: 20px;
+            right: 1px;
+            padding-bottom: 20px;
+            position: relative;
+            border-radius: 5px;
+            border: 1px solid #000000;
+            z-index: 10;
+            background: #fff;
+            cursor: pointer;
+            span {
+                list-style: none;
+                display: list-item;
+                padding: 7px;
+            }
+            .menuhover:hover {
+                padding: 7px;
+                border-radius: 5px;
+                background-color: #c4c4c4;
+            }
+        }
+    }
+    .RoomDetail {
+        margin: 30px;
+        padding-top: 20px;
+        text-align: center;
+        background-color: #ffc42a;
+        width: 320px;
+        height: 270px;
+        border-radius: 30px;
+        .RoomTitile {
+            height: 50px;
+        }
+        .dropDownTouch {
+            height: auto;
+            margin: 5px;
+            right: 1px;
+            padding-bottom: 20px;
+            position: relative;
+            border-radius: 5px;
+            border: 1px solid #000000;
+            z-index: 10;
+            background: #fff;
+            cursor: pointer;
+            span {
+                list-style: none;
+                display: list-item;
+                padding: 7px;
+            }
+            .menuhover:hover {
+                padding: 7px;
+                border-radius: 5px;
+                background-color: #c4c4c4;
+            }
+        }
+    }
+    .icon {
+        width: 50px;
+        cursor: pointer;
+        margin-top: 35px;
+        color: #000;
+        font-size: 35px;
+    }
+}

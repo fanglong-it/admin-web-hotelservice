@@ -1,0 +1,67 @@
+.paperUpdate {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 600px;
+    height: 720px;
+    background-color: white;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-radius: 5px;
+    .InfoCreate {
+        width: 100%;
+        background-color: #c4c4c4;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .title {
+            background-color: white;
+            border: 0.5px solid grey;
+            border-radius: 5px;
+        }
+    }
+}
+
+.header {
+    margin: 0 0 10px 0;
+}
+
+.title {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: right;
+    .buttonSave {
+        margin: 5px;
+        padding: 10px;
+        width: 100px;
+        border: none;
+        color: white;
+        background-color: #04B8F1;
+        border-radius: 5px;
+    }
+    .buttonClose {
+        margin: 5px;
+        padding: 10px;
+        width: 100px;
+        border: none;
+        color: white;
+        background-color: #ED4646;
+        border-radius: 5px;
+    }
+}

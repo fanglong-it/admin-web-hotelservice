@@ -1,0 +1,70 @@
+.ListRoomContainer {
+  width: 100%;
+  height: 600px;
+  padding: 20px;
+  .FillterRoom {
+    display: flex;
+    :nth-child(2),
+    :nth-child(3) {
+      padding-left: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+    .FillterAll {
+      width: 150px;
+      background-color: #969696;
+      border-radius: 10px;
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        font-size: 20px;
+      }
+    }
+    .FillterAll:hover {
+      background-color: #c4c4c4;
+    }
+    .FillterEmpty {
+      width: 150px;
+      background-color: #2a942d;
+      border-radius: 10px;
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        font-size: 20px;
+      }
+    }
+    .FillterEmpty:hover {
+      background-color: #63be66;
+    }
+    .FillterNotEmpty {
+      width: 150px;
+      background-color: #e9aa0c;
+      border-radius: 10px;
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        font-size: 20px;
+      }
+    }
+    .FillterNotEmpty:hover {
+      background-color: #ffc42a;
+    }
+  }
+  .RoomContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

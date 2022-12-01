@@ -1,0 +1,66 @@
+.CheckInContainer {
+    width: 100%;
+    padding: 20px;
+
+    .InfoRoomBooking {
+        .top-form {
+            display: flex;
+            width: 50%;
+            align-items: center;
+
+            .roomNo {
+                display: flex;
+                align-items: center;
+            }
+
+            .title {
+                width: 20%;
+            }
+        }
+
+        .InfoRoom {
+            .InfoRoomItem {
+                padding-top: 20px;
+            }
+
+            .label {
+                font-weight: 300;
+                color: #000000;
+            }
+
+            .title {
+                width: 100%;
+            }
+        }
+
+        .datagrid {
+            height: 260px;
+        }
+    }
+
+    .buttonCheckIn {
+        padding-top: 20px;
+
+        .link {
+            text-decoration: none;
+            margin-top: 5px;
+            color: green;
+            font-size: 16px;
+            font-weight: 400;
+            border: 1px solid green;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .buttonCheckIn {
+        width: 100%;
+        font-size: 24px;
+        color: gray;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}

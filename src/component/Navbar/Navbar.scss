@@ -1,0 +1,99 @@
+.navbar {
+    background-color: rgba(196, 196, 196, 0.3);
+    height: 100px;
+    margin-left: 20px;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    // white-space: nowrap;
+    // flex-direction: row;
+    // flex-wrap: nowrap;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // z-index: 1000;
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .search {
+            display: flex;
+            align-items: center;
+            border: 0.5px solid lightgray;
+            padding: 3px;
+            input {
+                border: none;
+                outline: none;
+                background: transparent;
+                &::placeholder {
+                    font-size: 12px;
+                }
+            }
+        }
+        .items {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .item {
+                display: flex;
+                align-items: center;
+                margin-right: 40px;
+                position: relative;
+                .icon {
+                    font-size: 30px;
+                }
+                .avatar {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+                .counter {
+                    width: 15px;
+                    height: 15px;
+                    background-color: red;
+                    border-radius: 50%;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 10px;
+                    font-weight: bold;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                }
+            }
+            ul {
+                list-style-type: none;
+            }
+            .username {
+                padding-left: 10px;
+                display: flex;
+            }
+            .menu {
+                right: 65px;
+                // border-bottom-left-radius: 10px;
+                // border-bottom-right-radius: 10px;
+                top: 65px;
+                position: absolute;
+                background-color: white;
+                padding: 30px;
+                text-align: left;
+                border: 0.5px solid #c4c4c4;
+            }
+            .menu span {
+                text-align: left;
+            }
+            .menu span:hover {
+                background-color: rgba(128, 126, 126, 0.3);
+                width: 100%;
+            }
+        }
+    }
+}

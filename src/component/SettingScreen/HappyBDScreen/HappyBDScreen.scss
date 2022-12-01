@@ -1,0 +1,57 @@
+.HapppBDScreen {
+    height: 500px;
+    padding: 20px;
+    .greeting-title {
+        font-size: 30px;
+    }
+    .form-greeting {
+        padding-top: 25px;
+    }
+    input {
+        padding: 15px;
+        width: 40%;
+        font-size: 20px;
+    }
+    .gender {
+        display: flex;
+        padding-top: 30px;
+        p {
+            font-size: 20px;
+        }
+        .gender-item {
+            display: flex;
+            align-items: center;
+            padding-left: 25px;
+            p {
+                padding-right: 20px;
+            }
+            input {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+    .greeting-display {
+        display: flex;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .greeting-submit {
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        .info-success {
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            color: #0FA958;
+        }
+        button {
+            width: 15%;
+            padding: 20px;
+            border: none;
+            cursor: pointer;
+            background: #c4c4c4;
+        }
+    }
+}
